@@ -1,0 +1,29 @@
+.intro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    .botones{
+        display: flex;
+        gap: 50px;
+    }
+    .info{
+        text-align: center;
+        line-height: 3em;
+        .MuiAvatar-root{
+            margin: auto;
+        }
+    }
+    h1, h2{
+        font-weight: 700;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+}
